@@ -1,0 +1,10 @@
+project: html5lib-python
+target: html5lib-python
+image: ghcr.io/ebell495/html5lib-python:latest
+duration: 300
+
+tests: null
+
+cmds:
+    - cmd: fuzz/fuzz.py
+      libfuzzer: true
