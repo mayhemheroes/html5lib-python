@@ -1,6 +1,5 @@
 project: html5lib-python
 target: fuzz
-tests: null
 
 cmds:
     - cmd: fuzz/fuzz.py
