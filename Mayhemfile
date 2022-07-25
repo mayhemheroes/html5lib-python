@@ -1,6 +1,6 @@
 project: html5lib-python
-target: fuzz
+target: fuzz_html_parser
 
 cmds:
-    - cmd: fuzz/fuzz.py
+    - cmd: fuzz/fuzz_html_parser.py
       libfuzzer: true
